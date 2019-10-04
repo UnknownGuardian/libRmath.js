@@ -99,6 +99,9 @@
         "report": "opn-cli coverage/lcov-report/index.html",
         "test": "cross-env-shell NODE_ENV=test TS_NODE_DISABLE_WARNINGS=true nyc mocha"
     },
+    "precommit": [
+        "build"
+      ],
     "types": "dist/src/lib/index.d.ts",
     "version": "1.0.83"
 }
