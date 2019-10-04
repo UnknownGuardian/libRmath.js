@@ -13,7 +13,6 @@
         ],
         "new-parens": true,
         "no-construct": true,
-        "no-unused-variable": true,
         "no-use-before-declare": true,
         "no-var-keyword": true,
         "object-literal-key-quotes": [

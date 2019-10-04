@@ -15,7 +15,7 @@ You should have received a copy of the GNU General Public License
 along with this program.  If not, see <http://www.gnu.org/licenses/>.
 */
 import special  from '../gamma';
-import { array_flatten, flatten, sum } from '../r-func';
+import { array_flatten, sum } from '../r-func';
 const { isFinite } = Number;
 
 const { lgamma } = special;

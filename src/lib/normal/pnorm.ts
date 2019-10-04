@@ -19,11 +19,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 import * as debug from 'debug'
 
 import {
-  M_1_SQRT_2PI,
-  M_SQRT_32,
   ML_ERR_return_NAN,
-  R_D__0,
-  R_D__1,
   R_DT_0,
   R_DT_1
 } from '../common/_general';

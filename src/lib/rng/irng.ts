@@ -20,6 +20,7 @@ import { IRNGType } from './irng-type';
 export type MessageType = 'INIT';
 
 // make sure sub-class is follow this
+// tslint:disable-next-line: class-name
 export interface IRNG_CORE {
   unif_rand(n?: number): number[];
   internal_unif_rand(): number;

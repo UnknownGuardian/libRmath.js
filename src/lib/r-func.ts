@@ -135,7 +135,7 @@ export function* multiplexer(...rest: any[]): IterableIterator<any[]> {
 export const c = chain(Array.from, flatten)
 
 export function Rcycle(fn: Function) {
-  return function (...args: any[]) {
+  return function(...args: any[]) {
     const gen = multiplexer(...args);
     let rc: any[] = [];
     for (const arg of gen) {

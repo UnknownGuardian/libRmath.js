@@ -58,10 +58,10 @@ export const special = Object.freeze({
 });
 
 import {
+  array_flatten,
   c,
   chain,
   flatten,
-  array_flatten,
   ISummary,
   multiplexer,
   numberPrecision,
